@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="5818" started-at="2022-02-19T16:11:33Z" finished-at="2022-02-19T16:11:39Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="5818" started-at="2022-02-19T16:11:33Z" finished-at="2022-02-19T16:11:39Z">
+      <class name="testCases.testMethods">
+        <test-method status="PASS" signature="deleteMethodExample1()[pri:0, instance:testCases.testMethods@523884b2]" name="deleteMethodExample1" duration-ms="2806" started-at="2022-02-19T21:41:33Z" description="DELETE method call" finished-at="2022-02-19T21:41:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteMethodExample1 -->
+        <test-method status="PASS" signature="getMethod()[pri:0, instance:testCases.testMethods@523884b2]" name="getMethod" duration-ms="706" started-at="2022-02-19T21:41:36Z" finished-at="2022-02-19T21:41:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getMethod -->
+        <test-method status="PASS" signature="getMethod1()[pri:0, instance:testCases.testMethods@523884b2]" name="getMethod1" duration-ms="298" started-at="2022-02-19T21:41:37Z" description="print url" finished-at="2022-02-19T21:41:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getMethod1 -->
+        <test-method status="PASS" signature="postMethod()[pri:0, instance:testCases.testMethods@523884b2]" name="postMethod" duration-ms="704" started-at="2022-02-19T21:41:37Z" description="POST" finished-at="2022-02-19T21:41:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postMethod -->
+        <test-method status="PASS" signature="postMethodExample2()[pri:0, instance:testCases.testMethods@523884b2]" name="postMethodExample2" duration-ms="600" started-at="2022-02-19T21:41:38Z" finished-at="2022-02-19T21:41:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postMethodExample2 -->
+        <test-method status="PASS" signature="putMethodExample1()[pri:0, instance:testCases.testMethods@523884b2]" name="putMethodExample1" duration-ms="644" started-at="2022-02-19T21:41:38Z" description="PUT method call with external JSON payload" finished-at="2022-02-19T21:41:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- putMethodExample1 -->
+      </class> <!-- testCases.testMethods -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
