@@ -44,8 +44,7 @@ public class testMethods {
 		String req = new String(Files.readAllBytes(Paths.get(input)));
 		System.out.println("Request: " + req);
 
-		Response res = given().header("Content-Type", "Application/JSON").body(req)
-				.post("https://reqres.in/api/users");
+		Response res = given().header("Content-Type", "Application/JSON").body(req).post("https://reqres.in/api/users");
 		Assert.assertEquals(res.getStatusCode(), 201);
 		System.out.println("Response" + res.getBody().asString());
 	}
